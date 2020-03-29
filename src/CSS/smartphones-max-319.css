@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@media only screen and (max-width: 319px) {
+    html,
+    body {
+        font-size: .9rem;
+    }
+}
+
+#wrapper-standorte {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    font-size: .9rem;
+}
+
+#standorte-oschersleben {
+    margin: .8em 0 0 0;
+}
+
+#ul-navigation {
+    font-size: 1rem;
+}
+
+#praeambel-1,
+#praeambel-2,
+#praeambel-3,
+#praeambel-4,
+#praeambel-5,
+#praeambel-6,
+#praeambel-7 {
+    align-self: center;
+    width: 17em;
+}
+
+#wrapper-c-events>div:nth-child(n)>div:nth-child(n),
+#wrapper-c-events>div:nth-child(n)>div:nth-child(n)>p:nth-child(n) {
+    padding: .4em;
+    max-width: max-content;
+    margin: 0 auto 0 auto;
+}

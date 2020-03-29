@@ -1,0 +1,11 @@
+{
+    [
+        "img-src-200": "src/Medien/Images/Header/header-bgi-200.jpg",
+        "img-src-300": "src/Medien/Images/Header/header-bgi-300.jpg",
+        "img-src-500": "src/Medien/Images/Header/header-bgi-500.jpg",
+        "img-src-700": "src/Medien/Images/Header/header-bgi-700.jpg",
+        "img-src-1100": "src/Medien/Images/Header/header-bgi-1100.jpg",
+        "img-src-1300": "src/Medien/Images/Header/header-bgi-1300.jpg",
+        "img-src-1900": "src/Medien/Images/Header/header-bgi-1900.jpg"
+    ]
+}

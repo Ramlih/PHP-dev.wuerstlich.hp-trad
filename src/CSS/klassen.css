@@ -1,0 +1,28 @@
+.box-shadow {
+    box-shadow: .05em -.1em .05em .05em hsl(360, 0%, 30%);
+}
+
+.box-shadow-red {
+    box-shadow: .025em -.025em .025em .025em rgb(148, 3, 3);
+}
+
+.box-shadow-yellow {
+    box-shadow: .025em -.025em .025em .025em rgb(230, 255, 6);
+}
+
+.font-petite-caps-yellow {
+    font-variant-caps: petite-caps;
+    color: yellow;
+}
+
+.font-petite-caps-red {
+    font-variant-caps: petite-caps;
+    color: #f90707;
+}
+
+
+/* Icon Fonts (Awesome) */
+
+.far {
+    min-width: 2em;
+}

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Portrait)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media screen and (min-width: 481px) and (max-width: 767px) and (orientation: portrait) {
+    html,
+    body {
+        font-size: 1.6em;
+    }
+    #ul-navigation {
+        font-size: inherit;
+    }
+    #ul-footer {
+        font-size: .8em;
+    }
+    #standorte-magdeburg,
+    #standorte-oschersleben,
+    #standorte-haldensleben {
+        font-size: 1.6em;
+    }
+    #wrapper-infos {
+        font-size: inherit;
+    }
+    #social-media>ul:nth-child(n),
+    #angebote>ul:nth-child(n) {
+        font-size: inherit;
+    }
+    #anker-burger,
+    #bezeichnung,
+    #preis {
+        font-size: inherit;
+    }
+    #picture-burger-des-monats>img:nth-child(8) {
+        width: 15em;
+        margin: auto;
+    }
+    #anpreisen,
+    #komponenten {
+        font-size: .8em;
+    }
+    /* Catering */
+    #wrapper-c-events>div:nth-child(n)>picture:nth-child(n)>img:nth-child(n) {
+        width: 14em;
+    }
+    #wrapper-c-events>div:nth-child(n)>picture:nth-child(n) {
+        align-self: center;
+    }
+    #wrapper-c-events>div:nth-child(n)>div:nth-child(n)>h4:nth-child(1) {
+        font-size: 1.3rem;
+    }
+    #wrapper-c-events>div:nth-child(n)>div:nth-child(n)>p:nth-child(2) {
+        font-size: 1.1rem;
+    }
+    #wrapper-c-events>div:nth-child(n)>div:nth-child(n) {
+        padding: 0 1.3em 0 1.3em;
+    }
+    body>main:nth-child(1)>article:nth-child(2)>h1:nth-child(1) {
+        align-self: center;
+        font-size: 2rem;
+    }
+    body>main:nth-child(1)>article:nth-child(2)>p:nth-child(n) {
+        align-self: center;
+    }
+}

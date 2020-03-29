@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media screen and (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+    html,
+    body {
+        font-size: 1.4em;
+    }
+    #ul-navigation {
+        font-size: inherit;
+    }
+    #ul-footer {
+        font-size: .8em;
+    }
+    #wrapper-standorte {
+        flex-direction: initial;
+    }
+    #standorte-magdeburg,
+    #standorte-oschersleben {
+        margin: 0 .3em 0 0;
+    }
+    #standorte-haldensleben {
+        margin: 0;
+    }
+    #wrapper-details,
+    #standort-ueberschrift,
+    #angebote>ul:nth-child(n) {
+        font-size: 1.1rem;
+    }
+}

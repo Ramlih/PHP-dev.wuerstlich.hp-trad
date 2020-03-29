@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media screen and ( min-width: 1024px) and (max-width: 1280px) {
+    body {
+        font-size: 2em;
+    }
+}

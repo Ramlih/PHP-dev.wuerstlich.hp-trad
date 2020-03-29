@@ -1,0 +1,184 @@
+{
+	"K1": "Magdeburg: TOOM Baumarkt",
+	"1": [
+		{
+			"Montag": [
+				{
+					"Wochentag": "Montag",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Dienstag": [
+				{
+					"Wochentag": "Dienstag",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Mittwoch": [
+				{
+					"Wochentag": "Mittwoch",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Donnerstag": [
+				{
+					"Wochentag": "Donnerstag",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Freitag": [
+				{
+					"Wochentag": "Freitag",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Sonnabend": [
+				{
+					"Wochentag": "Sonnabend",
+					"von": "10:30",
+					"bis": "16:00"
+				}
+			]
+		}
+	],
+	"K2": "Magdeburg: Gewerbegebiet Rothensee",
+	"2": [
+		{
+			"Montag": [
+				{
+					"Wochentag": "Montag",
+					"von": "8:00",
+					"bis": "18:00"
+				}
+			],
+			"Dienstag": [
+				{
+					"Wochentag": "Dienstag",
+					"von": "8:00",
+					"bis": "18:00"
+				}
+			],
+			"Mittwoch": [
+				{
+					"Wochentag": "Mittwoch",
+					"von": "8:00",
+					"bis": "18:00"
+				}
+			],
+			"Donnerstag": [
+				{
+					"Wochentag": "Donnerstag",
+					"von": "8:00",
+					"bis": "18:00"
+				}
+			],
+			"Freitag": [
+				{
+					"Wochentag": "Freitag",
+					"von": "8:00",
+					"bis": "18:00"
+				}
+			]
+		}
+	],
+	"K3": "Oschersleben: Anderslebener Straße",
+	"3": [
+		{
+			"Montag": [
+				{
+					"Wochentag": "Montag",
+					"von": "9:00",
+					"bis": "19:00"
+				}
+			],
+			"Dienstag": [
+				{
+					"Wochentag": "Dienstag",
+					"von": "9:00",
+					"bis": "19:00"
+				}
+			],
+			"Mittwoch": [
+				{
+					"Wochentag": "Mittwoch",
+					"von": "9:00",
+					"bis": "19:00"
+				}
+			],
+			"Donnerstag": [
+				{
+					"Wochentag": "Donnerstag",
+					"von": "9:00",
+					"bis": "19:00"
+				}
+			],
+			"Freitag": [
+				{
+					"Wochentag": "Freitag",
+					"von": "9:00",
+					"bis": "19:00"
+				}
+			],
+			"Sonnabend": [
+				{
+					"Wochentag": "Sonnabend",
+					"von": "9:30",
+					"bis": "19:00"
+				}
+			]
+		}
+	],
+	"K4": "Haldensleben: APPELT Baumarkt",
+	"4": [
+		{
+			"Montag": [
+				{
+					"Wochentag": "Montag",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Dienstag": [
+				{
+					"Wochentag": "Dienstag",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Mittwoch": [
+				{
+					"Wochentag": "Mittwoch",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Donnerstag": [
+				{
+					"Wochentag": "Donnerstag",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Freitag": [
+				{
+					"Wochentag": "Freitag",
+					"von": "9:00",
+					"bis": "16:00"
+				}
+			],
+			"Sonnabend": [
+				{
+					"Wochentag": "Sonnabend",
+					"von": "10:30",
+					"bis": "15:00"
+				}
+			]
+		}
+	]
+}
+

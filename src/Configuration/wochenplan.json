@@ -1,0 +1,103 @@
+{
+  "K1": "Magdeburg: TOOM Baumarkt",
+  "1": [
+    {
+      "Montag": [
+        "Erbseneintopf toom",
+        "Linseneintopf toom"
+      ],
+      "Dienstag": [
+        "Erbseneintopf toom",
+        "Linseneintopf toom"
+      ],
+      "Mittwoch": [
+          "Erbseneintopf toom"
+      ],
+      "Donnerstag": [
+          "Linseneintopf toom"
+      ],
+      "Freitag": [
+          "Erbseneintopf toom",
+          "Linseneintopf toom"
+      ],
+      "Sonnabend": [
+          "Möhrenneintopf toom"
+      ]
+    }
+  ],
+  "K2": "Magdeburg: Gewerbegebiet Rothensee",
+  "2": [
+    {
+      "Montag": [
+        "Erbseneintopf rothensee",
+        "Linseneintopf rothensee"
+      ],
+      "Dienstag": [
+        "Erbseneintopf rothensee",
+        "Linseneintopf rothensee"
+      ],
+      "Mittwoch": [
+          "Erbseneintopf rothensee"
+      ],
+      "Donnerstag": [
+          "Linseneintopf rothensee"
+      ],
+      "Freitag": [
+          "Erbseneintopf rothensee",
+          "Linseneintopf rothensee"
+      ]
+    }
+  ],
+  "K3": "Oschersleben: TOOM Baumarkt",
+  "3": [
+   {
+      "Montag": [
+        "Erbseneintopf oc",
+        "Linseneintopf oc"
+      ],
+      "Dienstag": [
+        "Erbseneintopf oc",
+        "Linseneintopf oc"
+      ],
+      "Mittwoch": [
+          "Erbseneintopf oc"
+      ],
+      "Donnerstag": [
+          "Linseneintopf oc"
+      ],
+      "Freitag": [
+          "Erbseneintopf oc",
+          "Linseneintopf oc"
+      ],
+      "Sonnabend": [
+          "Möhrenneintopf oc"
+      ]
+    }
+  ],
+  "K4": "Haldensleben: Appel Baumarkt",
+  "4": [
+    {
+      "Montag": [
+        "Erbseneintopf hdl",
+        "Linseneintopf hdl"
+      ],
+      "Dienstag": [
+        "Erbseneintopf hdl",
+        "Linseneintopf hdl"
+      ],
+      "Mittwoch": [
+          "Erbseneintopf hdl"
+      ],
+      "Donnerstag": [
+          "Linseneintopf hdl"
+      ],
+      "Freitag": [
+          "Erbseneintopf hdl",
+          "Linseneintopf hdl"
+      ],
+      "Sonnabend": [
+          "Möhrenneintopf rothensee"
+      ]
+    }
+  ]
+}

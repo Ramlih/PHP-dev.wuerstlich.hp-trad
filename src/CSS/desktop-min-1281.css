@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media screen and (min-width: 1281px) {
+    html,
+    body {
+        font-size: 1.2em;
+        width: 90%;
+        margin: 0 10% 0 10%;
+    }
+    #ul-navigation,
+    #ul-footer {
+        font-size: 1.7rem;
+    }
+    /* ************************************************************ */
+    /* Imbiss */
+    #wrapper-i-praeambel {
+        padding: 0 1em 0 3em;
+        width: 40em;
+        margin: auto;
+    }
+    #wrapper-standorte {
+        font-size: 1rem;
+        flex-direction: row;
+    }
+    /* Imbiss - Stores (Filialen) */
+    #wrapper-details {
+        flex-direction: column;
+        margin: 1em 0 0 0;
+    }
+    #wrapper-standorte {
+        flex-direction: row;
+        font-size: inherit;
+    }
+    #wrapper-infos {
+        flex-direction: row;
+        margin: 1em 0 0 0;
+    }
+    #f-image {
+        margin: 0;
+        max-width: max-content;
+        margin: auto;
+    }
+    #wrapper-angebote,
+    #wrapper-anschrift,
+    #wrapper-oeffnungszeiten {
+        /* max-width: 48em; */
+        flex: 1;
+        /* display: none; */
+    }
+    #wrapper-angebote {
+        margin: 0 .3em 0 .3em;
+    }
+    #wrapper-anschrift {
+        margin: 0 .3em 0 0;
+    }
+    #wrapper-oeffnungszeiten {
+        margin: 0;
+        min-width: min-content;
+    }
+    #wrapper-anschrift {
+        min-width: max-content;
+    }
+    #wrapper-oeffnungszeiten>div:nth-child(1),
+    #label-anschrift,
+    #wrapper-angebote {
+        width: auto;
+    }
+    #wrapper-oeffnungszeiten>div:nth-child(1),
+    #label-anschrift {
+        margin: inherit;
+    }
+    #wrapper-anschrift>img:nth-child(6) {
+        width: 20em;
+    }
+    /* Lieferdienst */
+    #wrapper-i-lieferdienst {
+        order: 4;
+    }
+    #wrapper-i-lieferdienst>img:nth-child(1) {
+        width: 26.9em;
+        margin: auto;
+    }
+    /* Burger des Monats */
+    #picture-burger-des-monats>img:nth-child(8) {
+        width: max-content;
+        margin: auto;
+    }
+    #komponenten {
+        width: 28em;
+    }
+    /* ************************************************************ */
+    /* Catering */
+    #wrapper-c-events {
+        margin: 0 0 0 5em;
+    }
+    #wrapper-c-events>div:nth-child(1) {
+        margin: 1em 0 0 0;
+    }
+    body>main:nth-child(1)>article:nth-child(2)>h1:nth-child(1),
+    body>main:nth-child(1)>article:nth-child(2)>p:nth-child(n) {
+        align-self: center;
+    }
+    #wrapper-c-events>div:nth-child(n) {
+        flex-direction: row;
+    }
+    #wrapper-c-events>div:nth-child(n)>picture:nth-child(n) {
+        flex: 2;
+    }
+    #wrapper-c-events>div:nth-child(n)>div:nth-child(n) {
+        flex: 4;
+    }
+}
