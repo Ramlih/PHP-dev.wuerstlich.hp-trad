@@ -21,7 +21,8 @@
         "facebook": "https://de-de.facebook.com/wuerstlich/",
         "image": "src/Medien/Images/Magdeburg-Parchauer/f-md-rothensee",
         "stempel": "src/Medien/Images/Magdeburg-Parchauer/i-vorbestellung-md-rs.svg",
-        "bonus": ""
+        "bonus": "",
+        "wochenkarte": "src/Medien/Download/Wochenkarte-RS.pdf"
     }],
     "K3": "Oschersleben: TOOM Baumarkt",
     "3": [{
@@ -45,6 +46,7 @@
         "facebook": "https://web.facebook.com/wuerstlichhaldensleben/",
         "image": "src/Medien/Images/Haldensleben/f-hdl-appel",
         "stempel": "src/Medien/Images/Haldensleben/i-vorbestellung-hdl.svg",
-        "bonus": "src/Medien/Images/Haldensleben/i-bonus-hdl-appel.svg"
+        "bonus": "src/Medien/Images/Haldensleben/i-bonus-hdl-appel.svg",
+        "wochenkarte": "src/Medien/Download/Wochenkarte-HDL.pdf"
     }]
 }
