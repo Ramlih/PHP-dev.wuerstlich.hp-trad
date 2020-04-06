@@ -1,4 +1,7 @@
 <?php
+/* error_reporting(E_ALL);
+ini_set('display_errors', true);
+ini_set('html_errors', false); */
 /**
  * Schaltzentrale für das Includen der Dateien für das Modul IMBISS
  * Alle für IMBISS erforderlichen (Steuer-)Variablen werden hier gesetzt
@@ -18,7 +21,7 @@ foreach ($_GET as $key => $value) {
 }
 
 if ($idxFil == '' && $idxStores == '' && $idxAngebot == '') {
-    include 'src/View/imbiss/i-praeambel.php';
+ include 'src/View/imbiss/i-praeambel.php';
 }
 
 if ($idxStores == 'stores') {
@@ -26,6 +29,7 @@ if ($idxStores == 'stores') {
  include 'src/View/imbiss/i-lieferdienst.php';
 } else {
  if ($idxFil != '') {
+  include 'src/View/imbiss/i-standortwahl.php';
   include 'src/View/imbiss/i-start-ueberschrift.php';
   include 'src/View/imbiss/i-fil-detail.php';
   if ($idxFil == '3') {

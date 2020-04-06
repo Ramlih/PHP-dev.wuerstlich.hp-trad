@@ -5,6 +5,28 @@
 
 
     <?php
+/* Datei: Imbiss/i-angebote.php */
+$configFile = 'src/Configuration/filialen.json';
+
+/**
+ * Konfigurationsdatei für Filialen -> Konfiguration auslesen
+ */
+function getConfig($configFile)
+{
+    $jsonConfig = file_get_contents($configFile);
+     return json_decode($jsonConfig, true);
+}
+
+
+function getFilialen($configFile)
+{
+    return getConfig($configFile);
+}
+
+foreach(getFilialen($configFile)[$idxFil] as $value){
+  $pfadWochenkarte = $value['wochenkarte'];
+}
+
 switch ($idxFil) {
     case 1: {
       echo '
@@ -32,7 +54,7 @@ switch ($idxFil) {
             </a>
           </li>
           <li>
-            <a href="src/Medien/Download/Wochenkarte30.03.20_RS.pdf">
+            <a href="'.$pfadWochenkarte.'">
               <span class="font-petite-caps-yellow">Wochenkarte (<span>als pdf</span> <i class="fas fa-file-pdf"></i> )</span>
             </a>
           </li>
@@ -76,7 +98,7 @@ switch ($idxFil) {
             </a>
           </li>
           <li>
-            <a href="src/Medien/Download/Wochenkarte 30.03 bis 03.04_HDL.pdf">
+            <a href="'.$pfadWochenkarte.'">
               <span class="font-petite-caps-yellow">Wochenkarte (<span>als pdf</span> <i class="fas fa-file-pdf"></i> )</span>
             </a>
           </li>
