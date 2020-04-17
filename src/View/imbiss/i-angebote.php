@@ -34,9 +34,11 @@ switch ($idxFil) {
       <div id="angebote">
         <ul>
           <li>
-            <a href="index.php?idx='.$idx.'&idxFil='.$idxFil.'&idxAngebot=speisen#wrapper-speiseangebot">
-              <span class="font-petite-caps-yellow">Speisekarte</span>
-            </a>
+          <a href="src/Medien/Download/speisekarte-MD-Toom-2020.pdf">
+          <span class="font-petite-caps-yellow">
+            Speisekarte (<span>als pdf</span> <i class="fas fa-file-pdf"></i> )
+          </span>
+        </a>
           </li>          
         </ul>
       </div>

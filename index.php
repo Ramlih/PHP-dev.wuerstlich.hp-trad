@@ -68,7 +68,7 @@
         learnMore: 'Mehr Infos',
         link: 'https://www.wuerstlich.de/?dse=1',
         /* Link zu den eigenen Datenschutzbestimmungen */
-        theme: 'hell-unten-rechts' /* weitere Theme-Optionen sind dunkel-oben oder hell-unten-rechts */
+        theme: 'dunkel-unten' /* weitere Theme-Optionen sind dunkel-oben oder hell-unten-rechts */
     };
     </script>
     <script type="text/javascript" src="https://s3.eu-central-1.amazonaws.com/website-tutor/cookiehinweis/script.js"></script>

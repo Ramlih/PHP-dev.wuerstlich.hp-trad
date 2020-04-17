@@ -26,15 +26,13 @@ if ($idxFil == '' && $idxStores == '' && $idxAngebot == '') {
 
 if ($idxStores == 'stores') {
  include 'src/View/imbiss/i-standortwahl.php';
- include 'src/View/imbiss/i-lieferdienst.php';
+ include 'src/View/imbiss/i-gutschein.php';
 } else {
  if ($idxFil != '') {
   include 'src/View/imbiss/i-standortwahl.php';
   include 'src/View/imbiss/i-start-ueberschrift.php';
   include 'src/View/imbiss/i-fil-detail.php';
-  if ($idxFil == '3') {
-   include 'src/View/imbiss/i-lieferdienst.php';
-  }
+  include 'src/View/imbiss/i-gutschein.php';
  }
 
  if ($idxAngebot != '') {
