@@ -25,6 +25,7 @@ function getFilialen($configFile)
 
 foreach(getFilialen($configFile)[$idxFil] as $value){
   $pfadWochenkarte = $value['wochenkarte'];
+  $pfadSpeisekarte = $value['speisekarte'];
 }
 
 switch ($idxFil) {
@@ -34,7 +35,7 @@ switch ($idxFil) {
       <div id="angebote">
         <ul>
           <li>
-          <a href="src/Medien/Download/speisekarte-MD-Toom-2020.pdf">
+          <a href="'.$pfadSpeisekarte.'">
           <span class="font-petite-caps-yellow">
             Speisekarte (<span>als pdf</span> <i class="fas fa-file-pdf"></i> )
           </span>
@@ -50,11 +51,13 @@ switch ($idxFil) {
       <!-- Angebot - Speisen: '.$idxFil.' -->
       <div id="angebote">
         <ul>
-          <li>
-            <a href="index.php?idx='.$idx.'&idxFil='.$idxFil.'&idxAngebot=speisen#wrapper-speiseangebot">
-              <span class="font-petite-caps-yellow">Speisekarte</span>
-            </a>
-          </li>
+        <li>
+        <a href="'.$pfadSpeisekarte.'">
+        <span class="font-petite-caps-yellow">
+          Speisekarte (<span>als pdf</span> <i class="fas fa-file-pdf"></i> )
+        </span>
+      </a>
+        </li>       
           <li>
             <a href="'.$pfadWochenkarte.'">
               <span class="font-petite-caps-yellow">Wochenkarte (<span>als pdf</span> <i class="fas fa-file-pdf"></i> )</span>
@@ -70,10 +73,8 @@ switch ($idxFil) {
       <!-- Angebot - Speisen: '.$idxFil.' -->
       <div id="angebote">
         <ul>
-          <!-- <li><a href="index.php?idx='.$idx.'&idxFil='.$idxFil.'&idxAngebot=speisen#wrapper-speiseangebot"><span class="font-petite-caps-yellow">Speisekarte</span></a></li> -->
-          <!-- <li><a href="src/Medien/Download/speisekarte-oc-2020_klein.pdf"><span class="font-petite-caps-yellow">Speisekarte (als pdf <i class="fas fa-file-pdf"></i> )</span></a></li> -->
           <li>
-            <a href="src/Medien/Download/speisekarte-oc-2020_portrait.pdf">
+          <a href="'.$pfadSpeisekarte.'">
               <span class="font-petite-caps-yellow">
                 Speisekarte (<span>als pdf</span> <i class="fas fa-file-pdf"></i> )
               </span>
@@ -95,7 +96,7 @@ switch ($idxFil) {
       <div id="angebote">
         <ul>
           <li>
-            <a href="src/Medien/Download/speisekarte-hdl-2020-portrait.pdf">
+          <a href="'.$pfadSpeisekarte.'">
               <span class="font-petite-caps-yellow">Speisekarte (<span>als pdf</span> <i class="fas fa-file-pdf"></i> )</span>
             </a>
           </li>

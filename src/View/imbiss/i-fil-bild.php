@@ -16,7 +16,7 @@ foreach ($arFilialen[$idxFil] as $a) {
   <source srcset="<?php echo $img; ?>-500.jpg" media="(min-width: 768px) and (max-width: 1023px)">
   <source srcset="<?php echo $img; ?>-500.jpg" media="(min-width: 768px) and (max-width: 1023px) and (orientation: landscape)">
   <source srcset="<?php echo $img; ?>-300.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
-  <source srcset="<?php echo $img; ?>-700.jpg" media="(min-width: 1281px)">
+  <source srcset="<?php echo $img; ?>-600.jpg" media="(min-width: 1281px)">
   <img src="<?php echo $img; ?>-300.jpg" alt="" class="box-shadow">
 </picture>
 

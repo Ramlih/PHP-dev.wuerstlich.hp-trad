@@ -14,43 +14,43 @@
     }
     #ul-navigation,
     #ul-footer {
-        font-size: 1.7rem;
+        font-size: 1.1rem;
     }
     /* ************************************ */
     /* Imbiss */
     #wrapper-i-praeambel {
         padding: 0 1em 0 3em;
-        width: 40em;
         margin: auto;
     }
     #wrapper-standorte {
-        font-size: 1rem;
         flex-direction: row;
+        margin: .5em .3em 0 .3em;
+        font-size: inherit;
+    }
+    #standorte-magdeburg,
+    #standorte-oschersleben {
+        margin: 0 .3em 0 0;
+    }
+    #standorte-haldensleben {
+        margin: 0;
     }
     /* Imbiss - Stores (Filialen) */
     #wrapper-details {
         flex-direction: column;
-        margin: 1em 0 0 0;
-    }
-    #wrapper-standorte {
-        flex-direction: row;
-        font-size: inherit;
+        margin: 0 .3em 0 .3em;
     }
     #wrapper-infos {
         flex-direction: row;
-        margin: 1em 0 0 0;
+        margin: .5em 0 0 0;
     }
     #f-image {
-        margin: 0;
         max-width: max-content;
-        margin: auto;
+        margin: .5em auto;
     }
     #wrapper-angebote,
     #wrapper-anschrift,
     #wrapper-oeffnungszeiten {
-        /* max-width: 48em; */
         flex: 1;
-        /* display: none; */
     }
     #wrapper-angebote {
         margin: 0 .3em 0 .3em;
@@ -93,7 +93,11 @@
     #komponenten {
         width: 28em;
     }
-     /* ************************************ */
+    #gutschein {
+        height: 25em;
+        max-width: max-content;
+    }
+    /* ************************************ */
     /* Catering */
     #wrapper-c-events {
         margin: 0 0 0 5em;
