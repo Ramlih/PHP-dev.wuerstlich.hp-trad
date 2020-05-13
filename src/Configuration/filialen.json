@@ -37,7 +37,7 @@
         "image": "src/Medien/Images/Oschersleben/f-oc-anderslebener",
         "stempel": "src/Medien/Images/Oschersleben/i-vorbestellung-oc.svg",
         "bonus": "src/Medien/Images/Oschersleben/i-bonus-oc-marktkauf.svg",
-        "speisekarte": "src/Medien/Download/speisekarte-oc-2020_portrait.pdf"
+        "speisekarte": "src/Medien/Download/speisekarte-OC-2020.pdf"
     }],
     "K4": "Haldensleben: APPELT Baumarkt",
     "4": [{
@@ -50,7 +50,7 @@
         "image": "src/Medien/Images/Haldensleben/f-hdl-appel",
         "stempel": "src/Medien/Images/Haldensleben/i-vorbestellung-hdl.svg",
         "bonus": "src/Medien/Images/Haldensleben/i-bonus-hdl-appel.svg",
-        "speisekarte": "src/Medien/Download/speisekarte-hdl-2020-portrait.pdf",
+        "speisekarte": "src/Medien/Download/speisekarte-HDL-2020.pdf",
         "wochenkarte": "src/Medien/Download/Wochenkarte-HDL.pdf"
     }]
 }
