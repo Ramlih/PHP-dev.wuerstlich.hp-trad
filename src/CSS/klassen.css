@@ -30,3 +30,11 @@
 .far {
     min-width: 2em;
 }
+
+.opa-50 {
+    opacity: .5;
+}
+
+.opa-25 {
+    opacity: .25;
+}

@@ -13,20 +13,14 @@
     }],
     "K3": "Oschersleben: Marktkauf",
     "3": [{
-        "Montag bis Freitag": "10:00 - 18:00 Uhr",
-        "Sonnabend": "10:30 - 18:00 Uhr",
+        "Montag bis Freitag": "09:00 - 19:00 Uhr",
+        "Sonnabend": "10:00 - 18:00 Uhr",
         "Sonntag": "Geschlossen"
     }],
     "K4": "Haldensleben: Appel Baumarkt",
     "4": [{
         "Montag bis Freitag": "9:00 - 16:00 Uhr",
-        "Sonnabend": "10:30 - 15:00 Uhr",
-        "Sonntag": "Geschlossen"
-    }],
-    "K5": "Haldensleben: Appel Baumarkt ** ab 11.05.2020 **",
-    "5": [{
-        "Montag bis Freitag": "9:00 - 16:00 Uhr",
-        "Sonnabend": "10:30 - 15:00 Uhr",
+        "Sonnabend": "10:00 - 15:00 Uhr",
         "Sonntag": "Geschlossen"
     }]
 }
