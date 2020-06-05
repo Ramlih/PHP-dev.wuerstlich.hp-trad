@@ -6,7 +6,96 @@
 */
 
 @media screen and ( min-width: 1024px) and (max-width: 1280px) {
+    html,
     body {
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+    #wrapper-i-lieferdienst>img:nth-child(1) {
+        width: 15em;
+        margin: auto;
+    }
+    #wrapper-standorte {
+        flex-direction: row;
+        font-size: .9rem;
+        padding: .8em 0 0 0;
+    }
+    #wrapper-i-praeambel {
+        font-size: 1rem;
+        width: 30em;
+        margin: 0 auto 0 auto;
+    }
+    #standorte-magdeburg,
+    #standorte-oschersleben {
+        margin: 0 .3em 0 0;
+    }
+    #standorte-haldensleben {
+        margin: 0em;
+    }
+    #standort-ueberschrift {
+        font-size: .8em;
+    }
+    #f-image>img:nth-child(n) {
+        width: 15em;
+        margin: auto;
+    }
+    #wrapper-infos {
+        flex-direction: row;
+        font-size: .95rem;
+        margin: 1em 0 0 0;
+    }
+    #label-anschrift,
+    #wrapper-oeffnungszeiten>div:nth-child(n),
+    #wrapper-angebote {
+        width: inherit;
+    }
+    #wrapper-oeffnungszeiten>div:nth-child(n),
+    #wrapper-oeffnungszeiten,
+    #label-anschrift,
+    #wrapper-anschrift,
+    #wrapper-angebote {
+        margin: 0em;
+    }
+    #wrapper-anschrift,
+    #wrapper-angebote {
+        margin: 0 .3em 0 0;
+    }
+    #wrapper-anschrift>img:nth-child(n) {
+        width: 12em;
+    }
+    #angebote>ul:nth-child(n) {
+        font-size: inherit;
+    }
+    body>main:nth-child(1)>footer:nth-child(3) {
+        font-size: 1.2rem;
+    }
+    #impressum,
+    #dse {
+        font-size: .6em;
+    }
+    #wrapper-c-events>div:nth-child(n)>picture:nth-child(n)>img:nth-child(n) {
+        width: 10em;
+    }
+    #wrapper-c-events>div:nth-child(n) {
+        flex-direction: row;
+    }
+    #wrapper-c-events>div:nth-child(n)>div:nth-child(n) {
+        flex: auto;
+        font-size: .8em;
+        padding: .6em;
+    }
+    body>main:nth-child(n)>article:nth-child(n)>h1:nth-child(n),
+    body>main:nth-child(n)>article:nth-child(n)>p:nth-child(n) {
+        align-self: center;
+    }
+    #picture-burger-des-monats>img:nth-child(8) {
+        width: 15em;
+        margin: auto;
+    }
+    #anpreisen,
+    #komponenten {
+        font-size: .6em;
+    }
+    #wrapper-c-events>div:nth-child(n) {
+        flex-direction: row;
     }
 }

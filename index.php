@@ -26,36 +26,46 @@
             content="Landeshauptstadt, Sachsen-Anhalt, Magdeburg, Haldensleben, Oschersleben">
         <meta name="format-detection" content="telephone=yes">
         <title>Würstlich genießen</title>
-        <link rel="stylesheet" href="src/CSS/main.css">
-        <link rel="stylesheet" href="src/CSS/klassen.css">
+        <!-- <link rel="stylesheet" href="src/CSS/main.css">
+        <link rel="stylesheet" href="src/CSS/klassen.css"> -->
         <!-- Für unterschiedliche Geräteklassen -->
-        <link rel="stylesheet" media="(max-width: 480px)" href="src/CSS/smarphones-portrait-max-480.css">
+        <!-- <link rel="stylesheet" media="(max-width: 480px)" href="src/CSS/smarphones-portrait-max-480.css">
         <link rel="stylesheet" media="(min-width: 481px)" href="src/CSS/tablet-mobile-portrait-481-767.css">
-        <!-- <link rel="stylesheet" media="(min-width: 481px)" href="src/CSS/tablet-mobile-landscape-481-767.css"> -->
+        <link rel="stylesheet" media="(min-width: 481px)" href="src/CSS/tablet-mobile-landscape-481-767.css">
         <link rel="stylesheet" media="(min-width: 768px)" href="src/CSS/tablet-ipad-portrait-768-1024.css">
-        <!-- <link rel="stylesheet" media="(min-width: 768px)" href="src/CSS/tablet-ipad-landscape-768-1024.css"> -->
-        <link rel="stylesheet" media="(min-width: 1024px)" href="src/CSS/laptop-desktop-1025-1280.css">
-        <link rel="stylesheet" media="(min-width: 1281px)" href="src/CSS/desktop-min-1281.css">
+        <link rel="stylesheet" media="(min-width: 768px)" href="src/CSS/tablet-ipad-landscape-768-1024.css">
+        <link rel="stylesheet" media="(min-width: 1025px)" href="src/CSS/laptop-desktop-1025-1280.css">
+        <link rel="stylesheet" media="(min-width: 1281px)" href="src/CSS/desktop-min-1281.css"> -->
         <link rel="stylesheet" href="src/CSS/normalize.css">
         <script src="https://kit.fontawesome.com/6bcf77b36a.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
+    <?php 
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);    
+    
+    require('src/Libary/main.php');
 
+     ?>
         <main>
+        
+
             <!-- Beginn HEADER -->
             <header>
-                <?php include 'src/View/header.php'; ?>
+                <?php #include 'src/View/header.php'; ?>
             </header>
 
             <!-- Beginn ARTICLE -->
             <article>
-              <?php include 'src/View/article.php'; ?>
+              <?php 
+                #include 'src/View/article.php';
+              ?>
             </article>
 
             <!-- Beginn FOOTER -->
             <footer>
-                <?php include 'src/View/footer.php'; ?>
+                <?php #include 'src/View/footer.php'; ?>
             </footer> 
         </main>
     </body>
