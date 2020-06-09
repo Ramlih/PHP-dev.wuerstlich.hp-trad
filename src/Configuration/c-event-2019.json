@@ -1,4 +1,13 @@
 {
+    "wuerstlich-mobil": [{
+        "event": "Das ist unser Würstlich-Mobil",
+        "ort": "Zuhause in Sachsen-Anhalt",
+        "img-src-100": "src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-200.jpg",
+        "img-src-200": "src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-200.jpg",
+        "img-src-300": "src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-300.jpg",
+        "img-src-400": "src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-400.jpg",
+        "img-src-500": "src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-500.jpg"
+    }],
     "barleben-beach.cup": [{
         "event": "Beach-Handball-Cup 2019",
         "ort": "Barleben - Am Barleber See",

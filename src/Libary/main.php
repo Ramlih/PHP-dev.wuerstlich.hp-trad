@@ -7,7 +7,7 @@ use Daten\Main as DatenMain;
  * wird eingebunden in die index.php
  */
 
-/* echo 'ich bin main.php<br>'; */
+echo 'ich bin main.php<br>';
 require_once('src/Libary/Autoload/Autoloader.php');
 Autoloader::register();
 

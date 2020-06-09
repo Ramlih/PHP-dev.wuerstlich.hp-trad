@@ -8,28 +8,31 @@
     <p id="praeambel-1"><span class="font-petite-caps-red">Wir lassen uns das Schlemmen nicht vermiesen!</span></p>
     <!-- <p id="praeambel-2">Ihr möchtet lecker satt werden?</p> -->
 
+<!-- Neuigkeiten Würstlich-Mobil -->
+<p id="praeambel-3">+++ 08.06.2020 +++ Neuigkeiten +++</p>
+    <p id="praeambel-3a" class="font-petite-caps-yellow">Unser neues Würstlich-Mobil</p>
+    <p id="praeambel-3d">Ab heute ist unser Würstlich-Mobil in einem neuen Outfit unterwegs.<br></p>
+            <div id="burger-des-monats">
+                <picture id="picture-burger-des-monats">
+                <source srcset="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-400.jpg" media="(min-width: 1281px)">
+                <source srcset="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-400.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                <source srcset="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-400.jpg" media="(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)">
+                <source srcset="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-400.jpg" media="(min-width: 768px) and (max-width: 1024px)">
+                <source srcset="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-500.jpg" media="(min-width: 481px) and (max-width: 767px)">
+                <source srcset="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-500.jpg" media="(min-width: 481px) and (orientation: landscape)">
+                <source srcset="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-200.jpg" media="(max-width: 250px)">
+                <source srcset="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-300.jpg" media="(max-width: 359px)">
+                <source srcset="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-400.jpg" media="(min-width: 360px) and (max-width: 480px)">
+                <img src="src/Medien/Images/catering/wuerstlich-mobil/wuerstlich-mobil-100.jpg" alt="Header" class="box-shadow">
+                </picture>
+            </div
+
     <!-- Neuigkeiten Haldensleben Appel -->
     <p id="praeambel-3">+++ 19.05.2020 +++ Neuigkeiten +++</p>
     <p id="praeambel-3a" class="font-petite-caps-yellow">Haldensleben - Appel Baumarkt:</p>
     <p id="praeambel-3d">Achtung!<br>Ab sofort haben wir für Euch einen neuen Burger im Angebot - den <span
             class="font-petite-caps-red">Chili-Cheeseburger.</span><br>
         Details dazu findet Ihr im Store und in der Speisekarte.<br></p>
-
-    <!-- Neuigkeiten Oschersleben -->
-    <p id="praeambel-3">+++ 17.05.2020 +++ Neuigkeiten +++</p>
-    <p id="praeambel-3a" class="font-petite-caps-yellow">Oschersleben - Marktkauf:</p>
-    <p id="praeambel-3d">Ab Montag, dem 18.05.2020, haben wir für Euch wieder länger geöffnet. Die genauen
-        Öffnungszeiten findet Ihr in den Einzelheiten zu dem Store.<br>
-        Alles Andere bleibt aber noch nach wie vor: <span class="font-petite-caps-yellow">Nur zum
-            Mitnehmen.</span><br>Bleibt gesund!</p>
-
-    <!-- Neuigkeiten Haldensleben -->
-    <p id="praeambel-3">+++ 17.05.2020 +++ Neuigkeiten +++</p>
-    <p id="praeambel-3a" class="font-petite-caps-yellow">Haldensleben - Appel Baumarkt:</p>
-    <p id="praeambel-3d">Ab Montag, dem 18.05.2020, haben wir für Euch wieder länger geöffnet. Die genauen
-        Öffnungszeiten findet Ihr in den Einzelheiten zum Store.<br>
-        Alles Andere bleibt aber noch nach wie vor: <span class="font-petite-caps-yellow">Nur zum
-            Mitnehmen.</span><br>Bleibt gesund!</p>
 
     <!-- Standard -->
     <p id="praeambel-4">

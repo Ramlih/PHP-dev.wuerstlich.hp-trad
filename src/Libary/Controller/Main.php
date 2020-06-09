@@ -8,6 +8,7 @@ class Main
     public function __construct()
     {
         
+        echo 'Controller\Main';
         $this->message = 'Hallo! Ich bin Controller\Main.<br>';
     }
 
