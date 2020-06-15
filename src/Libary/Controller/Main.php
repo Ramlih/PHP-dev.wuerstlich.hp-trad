@@ -10,6 +10,7 @@ class Main
         
         echo 'Controller\Main';
         $this->message = 'Hallo! Ich bin Controller\Main.<br>';
+        $obj = new My_Class();
     }
 
     /**
