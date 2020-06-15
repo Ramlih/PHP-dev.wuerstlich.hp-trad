@@ -11,7 +11,7 @@
         <!-- Head -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
+
         <meta name="theme-color" content="#ff0000">
         <link rel="shortcut icon" href="favicon.ico">
         <!-- iOS Safari -->
@@ -26,8 +26,8 @@
             content="Landeshauptstadt, Sachsen-Anhalt, Magdeburg, Haldensleben, Oschersleben">
         <meta name="format-detection" content="telephone=yes">
         <title>Würstlich genießen</title>
-        <!-- <link rel="stylesheet" href="src/CSS/main.css">
-        <link rel="stylesheet" href="src/CSS/klassen.css"> -->
+        <link rel="stylesheet" href="src/CSS/main.css">
+        <link rel="stylesheet" href="src/CSS/klassen.css">
         <!-- Für unterschiedliche Geräteklassen -->
         <link rel="stylesheet" media="(max-width: 480px)" href="src/CSS/smarphones-portrait-max-480.css">
         <link rel="stylesheet" media="(min-width: 481px)" href="src/CSS/tablet-mobile-portrait-481-767.css">
@@ -42,29 +42,38 @@
 
     <body>
 
-    <?php 
-    error_reporting(E_ALL);
-    ini_set('display_errors', 1);    
-echo 'vor require()';
-    require('src/Libary/main.php');
-
-     ?>
+    <?php
+        error_reporting(E_ALL);
+        ini_set('display_errors', true);
+        ini_set('html_errors', true);
+        
+    ?>
 
         <main>
             <!-- Beginn HEADER -->
             <header>
-                <?php /* include 'src/View/header.php'; */ ?>
+                <?php include 'src/Module/Header/header.php'; ?>
             </header>
 
             <!-- Beginn ARTICLE -->
             <article>
-              <?php /* include 'src/View/article.php'; */ ?>
+            <?php /* include 'src/Module/Article/article.php'; */ ?>
+            <?php 
+            use Controller\Main as Main;
+                /* require 'vendor/autoload.php'; */
+                
+                require 'src/Libary/Autoload/Autoloader.php';
+                Autoloader::register();
+                $obj = NEW Main;
+                $obj->setMessage('.<br>FATAL');
+                echo $obj->getMessage();
+            ?>
             </article>
 
             <!-- Beginn FOOTER -->
             <footer>
-                <?php /* include 'src/View/footer.php'; */ ?>
-            </footer> 
+                <?php include 'src/View/footer.php'; ?>
+            </footer>
         </main>
     </body>
 
